@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <header><h3>This is going to be Most Structured Todo's App so far...</h3></header>
+    <label>Check to see All Incomplete Todo's <input id="checkbox-for-incomplete-todo-list" type="checkbox"></label>
+    <h3 id="incomplete-todos-number"></h3>
+    <input id="live-search-bar" placeholder="Search your Todo's here">
+    <br><br>
+    <div id="todo-div-area"></div>
+           <br><br>
+    <!-- 
+      <label> Sort Accordingly :
+        <select id="drop-down">
+            <option value="AtoZ">A-Z</option>
+            <option value="ZtoA">Z-A</option>
+            <option value="IncLength">Increasing Length</option>
+        </select>
+    </label><br><br>
+     -->
+    <br>
+    <form id="add-new-todo-form">
+        <label>
+         Type Here:   <input type="text" placeholder="Enter your new todo here" name="newTodo">
+         <!-- since form can have multiple inputs so its better to give name to every input so we can access every input individually -->
+        <button>Add todo</button>
+        </label>
+    </form>
+    <script src="uuidThirdParty.js"></script>
+    <script src="todostructuredfunction.js"></script>
+    <script src="todostructured.js"></script>
+</body>
